@@ -18,3 +18,23 @@
 |  float  |  4 bytes |  -3,4028E + 38 |  3,4028E + 38 |  6 -- 7 dígitos |
 |  double |  8 bytes |  -17976E + 308 |  17976E + 308 |  15 dígitos |
 
+### Atribuição e Referência:
+
+- As atribuições em Java são por cópia de valor sempre;
+- Tipo primitivo copiamos o valor em memória;
+- Objetos copiamos o valor da referência em memória, sem duplicar o objeto.
+
+### Conceito de Nó e de Encadeamento de Nó:
+
+- Nó: espaço de memória que armazena um dado ou uma referência a outro nó;
+- Conceito similar aos ponteiros em C;
+
+### Generics em Java:
+
+- evitar casting excessivo
+- evitar redundancia de códio
+- encontrar erros em tempo de compilação
+- introduzido deade o Java SE 5.0
+- Wildcards (Coringas)
+  - Unknow Wildcards (Unbounded)
+  - Bounded Wildcard (Upper Rounded/Lower Bounded)
