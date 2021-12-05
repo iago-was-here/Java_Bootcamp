@@ -38,3 +38,12 @@
 - Wildcards (Coringas)
   - Unknow Wildcards (Unbounded)
   - Bounded Wildcard (Upper Rounded/Lower Bounded)
+
+### Pilhas (LIFO: Last In, First Out)
+
+- Pilha de dados que se comporta de acordo com algumas regras:
+  - Ultimo dado a ser inserido, é o primeiro a sair.
+  - Pilha de nós, os nós inseridos fazem um apontamento para o nó inserido anteriormente e o ultimo nó possui uma referencia.
+  - Metódo Top retira o nó do topo da pilha.
+  - Metódo Push recoloca o nó no topo da pilha.
+  - Metódo isEmpty verifica a validade da referência do nó no topo da pilha.
