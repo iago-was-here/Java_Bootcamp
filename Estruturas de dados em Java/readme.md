@@ -47,3 +47,11 @@
   - Metódo Top retira o nó do topo da pilha.
   - Metódo Push recoloca o nó no topo da pilha.
   - Metódo isEmpty verifica a validade da referência do nó no topo da pilha.
+
+### Filas (FIFO: First in, First Out)
+
+- Fila de dados que se comporta de acordo com alumas regras:
+  - Primeiro dado a ser inserido, é o primeiro a sair.
+  - Metódo enqueue, insere um nó no ultimo lugar da fila
+  - Metódo dequeue, retira o primeiro nó no primeiro lugar da fila.
+  - Metódo isEmpty verifica a validade da referência do nó no topo da pilha.
