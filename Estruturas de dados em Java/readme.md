@@ -58,4 +58,8 @@
 
 ### Listas Encadeadas
 
-- 
+- Lista de dados que se comporta de acordo com alumas regras:
+  - Se comporta de forma similar a fila, com a diferença de que entradas e saidas sã controladas por indices.
+  - Metódo Add, insere um nó em uma determinada posição da lista.
+  - Metódo remove, remove um nó em uma determinada posição da lista.
+  - Metódo get, pega uma "cópia" do nó sem exclui-lo da lista.

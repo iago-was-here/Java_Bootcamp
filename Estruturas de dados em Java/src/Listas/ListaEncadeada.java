@@ -28,7 +28,7 @@ public class ListaEncadeada<T> {
 		No<T> noAux = referenciaEntrada;
 		No<T> noRet = null;
 		
-		for(int i = 0; i < this.size()-1; i++) {
+		for(int i = 0; i <= index; i++) {
 			noRet = noAux;
 			noAux = noAux.getProximoNo();
 		}
@@ -51,7 +51,7 @@ public class ListaEncadeada<T> {
 		No<T> noAlvo = this.getNo(index);
 		if(index == 0) {
 			referenciaEntrada = noAlvo.getProximoNo();
-			return noAlvo;
+			return noAlvo.getConteudo();
 		}
 		
 		No<T> noAnterior = getNo(index - 1);
@@ -84,4 +84,18 @@ public class ListaEncadeada<T> {
 			return false;
 		}
 	}
+	@Override
+	public String toString() {
+		String Ret = "";
+		No<T> noAux = referenciaEntrada;
+		for(int i = 0; i < this.size();i++) {
+			Ret += "[No {conteudo=" + noAux.getConteudo() + "}]--->";
+			noAux = noAux.getProximoNo();
+		}
+		Ret += "null";
+		return Ret;
+	}
+	
+	
+	
 }

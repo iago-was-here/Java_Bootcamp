@@ -1,6 +1,6 @@
 package Pilhas;
 
-public class main {
+public class teste {
 	public static void main(String[] args) {
 		
 		pilha minhaPilha = new pilha();

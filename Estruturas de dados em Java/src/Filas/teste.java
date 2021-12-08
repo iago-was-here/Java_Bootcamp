@@ -1,6 +1,6 @@
 package Filas;
 
-public class main {
+public class teste {
 	public static void main(String[] args) {
 		
 		Fila<String> minhaFila = new Fila<> ();
