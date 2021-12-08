@@ -55,3 +55,7 @@
   - Metódo enqueue, insere um nó no ultimo lugar da fila
   - Metódo dequeue, retira o primeiro nó no primeiro lugar da fila.
   - Metódo isEmpty verifica a validade da referência do nó no topo da pilha.
+
+### Listas Encadeadas
+
+- 

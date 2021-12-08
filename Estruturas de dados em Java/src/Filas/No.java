@@ -1,10 +1,10 @@
 package Filas;
 
-public class No {
-	private Object objeto;
-	private No refNo;
+public class No<T> {
+	private T objeto;
+	private No<T> refNo;
 	
-	public No (Object objeto) {
+	public No (T objeto) {
 		this.refNo = null;
 		this.objeto = objeto;
 	}
@@ -22,7 +22,7 @@ public class No {
 		return objeto;
 	}
 
-	public void setObjeto(Object objeto) {
+	public void setObjeto(T objeto) {
 		this.objeto = objeto;
 	}
 

@@ -1,8 +1,8 @@
 package Filas;
 
-public class Fila {
+public class Fila<T> {
 	
-	private No refEntradaFila;
+	private No<T> refEntradaFila;
 	
 	public Fila () {
 		this.refEntradaFila = null;
@@ -16,13 +16,13 @@ public class Fila {
 		}
 	}
 	
-	public void enqueue (Object obj) {
-		No novoNo = new No ();
+	public void enqueue (T obj) {
+		No novoNo = new No (obj);
 		novoNo.setRefNo(refEntradaFila);
 		refEntradaFila = novoNo;
 	}
 	
-	public Object first () {
+	public T first () {
 		if(this.isEmpty() != true) {
 			No primeiroNo = refEntradaFila;
 			while(true) {
@@ -32,13 +32,13 @@ public class Fila {
 					break;
 				}
 			}
-			return primeiroNo.getObjeto();
+			return (T) primeiroNo.getObjeto();
 		}else {
 			return null;
 		}
 	}
 	
-	public Object dequeue () {
+	public T dequeue () {
 		if(this.isEmpty() != true) {
 			No primeiroNo = refEntradaFila;
 			No noAuxiliar = refEntradaFila;
@@ -51,7 +51,7 @@ public class Fila {
 					break;
 				}
 			}
-			return primeiroNo.getObjeto();
+			return (T) primeiroNo.getObjeto();
 		}else {
 			return null;
 		}
