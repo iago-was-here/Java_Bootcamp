@@ -63,3 +63,12 @@
   - Metódo Add, insere um nó em uma determinada posição da lista.
   - Metódo remove, remove um nó em uma determinada posição da lista.
   - Metódo get, pega uma "cópia" do nó sem exclui-lo da lista.
+
+### Listas Duplamente Encadeadas
+
+- Principal diferença é que cada nó posssui duas referências (nó anterior e posterior).
+- Possui também duas referências de entrada (Primeiro  e ultimo nó).
+- Metódo add(el) adiciona o elemento a lista
+- Metódo add(index.el) adiciona o elemento a um determinado indice
+- Metódo remove(index) remove o elemento passando o indice como referencia
+- Metódo get(index) retorna o elemento passando o indice como referencia
