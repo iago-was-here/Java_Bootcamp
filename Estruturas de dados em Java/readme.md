@@ -72,3 +72,11 @@
 - Metódo add(index.el) adiciona o elemento a um determinado indice
 - Metódo remove(index) remove o elemento passando o indice como referencia
 - Metódo get(index) retorna o elemento passando o indice como referencia
+
+### Listas Circulares
+
+- Bem similar a uma lista encadeada simples, com a diferença que o ultimo elemento não aponta para null e sim de volta ao primeiro elemento.
+- Metódo add(el), adicona um novo nó, alterando as referencias de entrada (Cabeça e Cauda);
+- Metódo remove
+- Metódo get(index)
+- 
