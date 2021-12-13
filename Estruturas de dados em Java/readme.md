@@ -79,4 +79,54 @@
 - Metódo add(el), adicona um novo nó, alterando as referencias de entrada (Cabeça e Cauda);
 - Metódo remove
 - Metódo get(index)
-- 
+- Metódo isEmpty
+
+### Arvores (trees)
+
+- Estrutura de dados bidimensional
+- não linear
+- constituída de nós que representam um modelo hierárquico
+  - armazenam os dados com base em relações de dependências.
+- Listas,Filas e Pilhas são estruturas lineares
+
+- São utilizados em:
+  - sistema de arquivos
+  - banco dados
+  - interfaces gráficas
+  - páginas web
+  
+- características:
+  - Nó: elemento da arvore que pode armazenar dados e referencia para outros nós.
+  - Raiz: origem de todas as demais ramificações.
+  - Pai e Filho: dois nós interligados, descente direto é o filho..
+  - Irmão: nós com mesmo pai.
+  - Nível de um nó: posição hierárquica com relaçãoa a raiz.
+  - Altura ou profundidade: grau máximo dos nós.
+  - Folha ou nó terminal: nó da ponta da arvore.
+  - Nó interno: nós que não são folhas.
+  - Grau de um nó: determinadad pelo n° de filhos.
+  - Subarvore: nó da arvore principal sendo considerado um ramo.
+  
+  - Tipos de Arvores:
+    - Binária
+    - AVL
+    - Ordenada
+    - Rubro-Ngra
+    - 2-3
+    - 2-4
+    - B
+    - B+
+    - Hiperbólica
+  
+  ### Arvore de busca binária
+
+- Os nós maiores que a raiz sempre estarão a direita e os menores a esquerda.
+- Nó da arvore binaria possui duas referencias, para a esquerda e para a direita.
+- Interface Comparable utilizada para tornas objetos comparavéis.
+- Inserção: compara com a raiz e então compara com os nós internos e terminais.
+- Exclusão: ao exluir um elemento, substituimos-o pelo maior nó a esquerda.
+- Exibição: utilizaremos algoritmos recursivos.
+- Atravessamento em árvore:
+  - in ordem: retorna os valores em ordem crescente.
+  - pré ordem: entra pela raiz, exibe o nós e vai pelas subarvores.
+  - pós ordem: retorna os valores em ordem decrescente.
