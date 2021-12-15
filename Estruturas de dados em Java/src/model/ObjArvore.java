@@ -1,4 +1,4 @@
-package ArvoreBinaria;
+package model;
 
 public abstract class ObjArvore<T> implements Comparable<T> {
 	

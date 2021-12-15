@@ -1,5 +1,7 @@
 package ArvoreBinaria;
 
+import model.Obj;
+
 public class teste {
 	public static void main(String[] args) {
 		
@@ -17,5 +19,6 @@ public class teste {
 		minhaArvore.exibirInOrdem();
 		minhaArvore.exibirPreOrdem();
 		minhaArvore.exibirPosOrdem();
+		
 	}
 }
