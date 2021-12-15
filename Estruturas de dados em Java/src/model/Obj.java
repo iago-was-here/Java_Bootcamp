@@ -37,8 +37,7 @@ public class Obj extends ObjArvore<Obj> {
 
 	@Override
 	public String toString() {
-		meuValor.toString();
-		return null;
+		return meuValor.toString();
 	}
 	
 	
