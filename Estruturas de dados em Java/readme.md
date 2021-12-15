@@ -130,3 +130,38 @@
   - in ordem: retorna os valores em ordem crescente.
   - pré ordem: entra pela raiz, exibe o nós e vai pelas subarvores.
   - pós ordem: retorna os valores em ordem decrescente.
+
+
+### Principais implementações das estruturas de dados Java
+
+- Equals() e hashCode():
+  - Devem ser implementados juntos;
+  - Tem como objetivo melhorar a busca de objetos.
+- Stack:
+  - Metódos:
+  - push: insere um objeto na pilha;
+  - pop: remove o objeto do topo da pilha;
+  - peek: apenas exibe o objeto do topo da pilha;
+  - empty: retorna se a pilha está vazia ou não.
+  
+- Queue(Interface Queue):
+  - Metódos:
+  - add: adicona um novo objeto a fila e se não conseguir retorna um erro;
+  - offer: tenta adicionar um novo objeto a fila e se não conseguir retorna false;
+  - peek: apenas exibe o objeto do inicio da fila;
+  - pool: exibe e remove o objeto do inicio da fila;
+  - isEmpty: retorna se a fila esta vazia.
+
+- List:
+  - Metódos:
+  - add: adicona um objeto a lista;
+  - contains: retorna se a lista possui o objeto passado como parâmetro;
+  - get: retorna o objeto de acordo com o indice passado como parâmetro;
+  - indexOf: retorna o indice do objeto passado como parâmetro;
+  - remove: remove o objeto de acordo com o indice passado.
+
+- Set(Interface Set):
+  - *Conjunto* de objetos que não segue ordem de inserção;
+  
+- Map(Interface Map):
+- 

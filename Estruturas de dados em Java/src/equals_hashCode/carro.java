@@ -1,6 +1,6 @@
 package equals_hashCode;
 
-public class carro {
+public class carro implements Comparable<carro>{
 	
 	String marca;
 	
@@ -40,6 +40,24 @@ public class carro {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "carro [marca=" + marca + "]";
+	}
+	/*public int compareTo(carro o) {
+		if(this.marca.length() < o.marca.length()){
+			return -1;
+		}else if(this.marca.length() > o.marca.length()) {
+			return 1;
+		}else {
+			return 0;
+		} Compare to para tamanho*/
 	
+	@Override
+	public int compareTo(carro o) {
+		return this.getMarca().compareTo(o.getMarca());
+	}
+	//compareTo em ordem alfabética
 	
 }
