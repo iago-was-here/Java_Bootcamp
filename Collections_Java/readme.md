@@ -14,6 +14,18 @@
 - java.util.list
 - permite elementos duplicados.
 -  Implementada por várias classes, dentre elas ArrayList, LinkedList e Vector.
+-  Metódos:
+   -  sort (classifica os elementos de uma list).
+   -  binarySearch (localiza um objeto em uma list usando o algoritmo de pesquisa binária de alto desempenho).
+   -  reverse (inverte os elementods de uma list).
+   -  shuffle (ordena aleatoriamente os elentos de uma list).
+   -  fill (configura todo elemento list para referir-se a um objeto especificado).
+   -  copy (copia referências de uma list em outra).
+   -  min (retorna o menor elemento em uma Collection).
+   -  max (retorna o maior elemento em uma collection).
+   -  addAll (Acrescenta todos os elementos em um array a uma Collection).
+   -  frequency (calcula quantos elementos da coleção são iguais ao elemento especificado)
+   -  disjoint (determina se duas coleções não tem nenhum elemento em comum).
 
 ### Map
 
