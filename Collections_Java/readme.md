@@ -13,6 +13,7 @@
 
 - java.util.list
 - permite elementos duplicados.
+-  Implementada por várias classes, dentre elas ArrayList, LinkedList e Vector.
 
 ### Map
 
