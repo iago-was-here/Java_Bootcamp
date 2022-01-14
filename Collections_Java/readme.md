@@ -8,6 +8,8 @@
 - java.util.set;
 - não permite elementos duplicados;
 - não possui índice;
+- HashSet armazena seus dados em uma tabela de hash.
+- TreeSet armazena seus dados em uma árvore.
 
 ### List
 
@@ -31,3 +33,6 @@
 
 - associa chaves a valores, não aceita duas chaves iguais.
 - Não deriva de Collection.
+- HashTable armazena seus dados em uma tabela de hash.
+- HashMap armazena seus dados em uma tabela de hash(não sincronizado, permite valores e chaves null).
+- TreeMap armazena seus dados em uma árvore.
