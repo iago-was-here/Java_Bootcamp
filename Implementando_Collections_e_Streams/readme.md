@@ -17,6 +17,15 @@
 - Garante ordem de inserção.
 - Permite adição, atualização, leitura e remoção sem regras adicionais.
 - Permite ordenação através de comparators.
-## Queue
+  
+## Queue (Filas)
+
+- java.util.LinkedList
+  - nome_da_fila.peek(). Retorna sem remover o primeiro elemento da fila.
+  - nome_da_fila.pool(). Retorna  e remove o primeiro elemento da fila.
+  - nome_da_fila.element(). Retorna o primeiro elemento e lança um erro a tempo de compilação se a fila estiver vazia.
+- Garante ordem de inserção
+- Permite adição, leitura e remoção seguindo a regra FIFO
+- Não permite mudanças de ordenação
 ## Set
 ## Map
