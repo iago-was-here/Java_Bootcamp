@@ -28,4 +28,20 @@
 - Permite adição, leitura e remoção seguindo a regra FIFO
 - Não permite mudanças de ordenação
 ## Set
+
+- java.util.HashSet
+  - Criada pra trabalhar com grandes conjuntos de dados com uma performance melhor na leitura destes.
+  - Utilizamos quando não se faz necessário manter uma ordenação
+  - Não ordenado
+  - Não permite itens repetidos
+  - Não permite mudança de ordenação.
+- java.util.TreeSet
+   - Utilizamos quando é necessário alterar a ordem através de comparators
+   - Performático para leitura e como tem a necessidade de reordenção para modificar um elemento acaba sendo mais lento que o LinkedHashSet
+- java.util.LinkedHashSet
+  - Utilizamos quando é necessário manter a ordem de inserção dos elementos
+  - Por ser necessário manter a ordem é a implementação mais lenta.
+- Permite adição e remoção normalmente. Não possui busca por item e atualização. Para leitura apenas navegação.
+- 
+
 ## Map
