@@ -51,7 +51,8 @@
   - nome-do-mapa.containsKey(chave do elemento desejado). Retorna um boolean após verificar se há a chave passada como parametro no mapa.
   - nome-do-mapa.containsValue(Valor do elemento desejado). Retorna um boolean após verificar se há o valor passado como parametro no mapa.
   - Metódos de navegação no map
-    - for (Map.Entry<String, Integer> entry : nome-do-mapa.entrySet()) {
+    - 
+      for (Map.Entry<String, Integer> entry : nome-do-mapa.entrySet()) {
 			  System.out.println(entry.getKey() + "-----" + entry.getValue());
 		  }
 		
