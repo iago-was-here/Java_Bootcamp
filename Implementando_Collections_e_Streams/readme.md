@@ -50,7 +50,7 @@
   - nome-do-mapa.get(chave do elemento desejado). Retorna o valor do elemento passado no parametro.
   - nome-do-mapa.containsKey(chave do elemento desejado). Retorna um boolean após verificar se há a chave passada como parametro no mapa.
   - nome-do-mapa.containsValue(Valor do elemento desejado). Retorna um boolean após verificar se há o valor passado como parametro no mapa.
-  - Metódos de navegação no map
+  - Metódos de navegação no map:
     - 
       for (Map.Entry<String, Integer> entry : nome-do-mapa.entrySet()) {
 			  System.out.println(entry.getKey() + "-----" + entry.getValue());
@@ -66,3 +66,13 @@
 - Entrada de chave e valor.
 - Permite valores repetidos mas não permite repetição de chave.
 - Permite adição, busca por chave ou valor, atualização, remoção e navegação.
+
+## Comparators
+
+- java.util.Comparator (Interface para definir classe com regra de ordenção).
+  - Declaração public class nome_da_classe implements Comparator<classe_a_ser_comparada>
+- java.util.Comparable (Interface para definir regra de ordenação em uma classe do domínio).
+  - Declaração: public class nomeClasse implements Comparable<tipo_de_objeto_a ser comparado>;
+- Algoritimos de ordenação.
+- Utilizado primariamente em java.util.List;
+- Permite a ordenação de objetos complexos (Criados pelo usuário).
