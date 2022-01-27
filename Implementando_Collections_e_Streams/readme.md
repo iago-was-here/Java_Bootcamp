@@ -76,3 +76,11 @@
 - Algoritimos de ordenação.
 - Utilizado primariamente em java.util.List;
 - Permite a ordenação de objetos complexos (Criados pelo usuário).
+
+## Optional
+
+- Tratamento para valores que podem ser nulos.
+- Possui 2 estados:
+  - Presente.
+  - Vazio.
+- Permite a execução de operações em valores que podem ser nulos sem preocupação com NullPointerExceptions.
