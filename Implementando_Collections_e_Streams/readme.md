@@ -84,3 +84,15 @@
   - Presente.
   - Vazio.
 - Permite a execução de operações em valores que podem ser nulos sem preocupação com NullPointerExceptions.
+
+## Stream API
+
+- Manipulação de coleções com o paradgima funcional de forma paralela.
+- Imutável. Não altera a coleção oriem sempre crua uma nova coleção.
+- Principais funcionalidades: 
+  - Mapping - retorna uma coleção com mesmo tamanho da origem com os elementos alterados
+  - Filtering - retorna uma coleção igual ou menor que a coleção origem, com os elementos intactos.
+  - ForEach - executa determinada lógica para cada elemento, retornando nada.
+  - Peek - Executa uma determinada lógica para cada elemento, retornando a própria coleção.
+  - Counting - retorna um inteiro que representa a contagem de elementos.
+  - Grouping - retorna uma coleção agrupada de acordo com a regra definida.
