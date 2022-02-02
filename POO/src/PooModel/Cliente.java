@@ -3,7 +3,7 @@ package PooModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente extends Pessoa{
+public class Cliente extends Pessoa {
 	
 	private List<Endereco> enderecos;
 	
