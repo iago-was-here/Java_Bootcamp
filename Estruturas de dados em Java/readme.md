@@ -161,7 +161,18 @@
   - remove: remove o objeto de acordo com o indice passado.
 
 - Set(Interface Set):
-  - *Conjunto* de objetos que não segue ordem de inserção;
+  - *Conjunto* de objetos que não segue ordem de inserção e não aceita duplicatas.
+  - Classes implementadas pela interface Set:
+    - HashSet
+    - LinkedHashSet
+    - TreeSet
   
 - Map(Interface Map):
-- 
+-  Interface que mapeia valores para chaves para chave.
+-  A chave de um valor não pode ser repetida.
+- Classes implementadas pela interface Map:
+  - AbstractMap
+  - HashTable
+  - HashMap
+  - TreeMap
+  - LinkedHashMap
