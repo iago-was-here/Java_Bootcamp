@@ -168,11 +168,11 @@
     - TreeSet
   
 - Map(Interface Map):
--  Interface que mapeia valores para chaves para chave.
--  A chave de um valor não pode ser repetida.
-- Classes implementadas pela interface Map:
-  - AbstractMap
-  - HashTable
-  - HashMap
-  - TreeMap
-  - LinkedHashMap
+  -  Interface que mapeia valores para chaves para chave.
+  -  A chave de um valor não pode ser repetida.
+  - Classes implementadas pela interface Map:
+    - AbstractMap
+    - HashTable
+    - HashMap
+    - TreeMap
+    - LinkedHashMap
